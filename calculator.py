@@ -20,12 +20,11 @@ choise=input("choise operation you want to perform")
 if choise=="1":
     print("the addition of",a,"+",b,"is","=",add(a,b))
 elif choise=="2":
-    print(a,"-",b,"=",subtract(a,b))
+    print("the subtraction of",a,"-",b,"is","=",subtract(a,b))
 elif choise=="3":
-    print(a,"*",b,"=",multiply(a,b))
+    print("the multiplication of",a,"*",b,"is","=",multiply(a,b))
 elif choise=="4":
-    print(a,"/",b,"=",division(a,b))
+    print("the division of",a,"/",b,"is","=",division(a,b))
 else:
     print("invalid input")
-
 
